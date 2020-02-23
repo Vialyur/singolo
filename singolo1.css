@@ -5,10 +5,35 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "LATO Black", sans-serif;
+    src: url(./assets/Lato-Black.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "LATO Light", sans-serif;
+    src: url(./assets/Lato-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "LATO Regular", sans-serif;
+    src: url(./assets/Lato-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
 body {
     width: 1020px;
     margin: auto;
-    background-color: aquamarine;
+
+}
+
+h1, h2, h3 {
+    margin: 0;
 }
 
 header {
@@ -32,6 +57,7 @@ header {
     font-stretch: condensed;
     letter-spacing: 0.5px;
     color: #fff;
+    letter-spacing: 0.1px;
 }
 
 span {
@@ -55,8 +81,8 @@ span {
     color: #fff;
     font-family: "LATO", sans-serif;
     font-size: 12px;
-    letter-spacing: 0.5px;
-    font-stretch: semi-condensed;
+    letter-spacing: 0.1px;
+    font-stretch: normal;
 }
 
 .navigation li a:hover {
@@ -103,8 +129,88 @@ span {
 }
 
  .services {
-     height: 502px;
-     background-color: #f2f2f2;
-     box-sizing: border-box;
-     border-bottom: 6px solid #fff;
+    display: flex;
+    flex-direction: column;
+    height: 502px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    border-bottom: 6px solid #fff;
  }
+
+.serviceTop {
+    margin: 46px 0 0 40px;
+}
+
+.services h2 {
+    font-family: "LATO Black", sans-serif;
+    color: #666d89;
+    font-size: 30px;
+    line-height: 18px;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: -1px;
+    font-stretch: normal;
+    margin-top: 25px;
+}
+
+.services p {
+    font-family: "LATO Light", sans-serif;
+    margin: 0 40px 0 0;
+    font-size: 16px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 25px;
+    letter-spacing: 0.35px;
+    font-stretch: extra-expanded;
+    word-spacing: 0.2px;
+    text-align: justify;
+    
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 245px;
+    margin: 45px 40px 0 40px;
+}
+
+.wrapItem {
+    display: flex;
+    width: 33%;
+    max-width: 300px;
+    height: 122px;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+.serviceText {
+    margin: 0 0 0 20px;
+}
+
+.serviceText h3 {
+    font-family: "LATO Black", sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -2px;
+    font-stretch: expanded;
+}
+
+.serviceText p {
+    font-family: "LATO Regular", sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: left;
+    margin: 10px 0 0 0;
+    letter-spacing: -0.01rem;
+    word-spacing: 0.01rem;
+    text-align: justify;
+}
