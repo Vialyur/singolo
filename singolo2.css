@@ -108,22 +108,30 @@
     justify-content: space-around;
     width: 1020px;
     height: 675px;
-    overflow: hidden;
+    overflow-y: hidden;
     background-color: #2d303a;
     padding: 0 30px 46px 30px;
+}
 
+.gallery a:nth-child(n + 13) {
+    display: none;
 }
 
 .gallery a {
     height: 187px;
     width: 220px;
-    overflow: hidden;
+}
+
+.gallery a:hover {
+    transform: scale(1.1);
 }
 
 .gallery img {
     width: auto;
     height: 187px;
 }
+
+
 
 .about {
     padding: 44px 40px;
@@ -184,6 +192,10 @@
     font-weight: 900;
     text-align: left;
     margin: 14px 0 10px 0;
+    overflow: hidden;
+    width: 300px;
+    display: block;
+    white-space: nowrap;
 }
 
 .employee-content {
@@ -210,4 +222,8 @@
     height: 35px;
     margin-right: 5px;
     padding: 0;
+}
+
+.icons img:hover {
+    transform: scale(1.2);
 }
