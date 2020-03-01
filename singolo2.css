@@ -100,4 +100,27 @@
     margin-left: 9px;
 }
 
+.gallery {
+    box-sizing: border-box;
+    border-bottom: solid 6px #323746;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1020px;
+    height: 675px;
+    overflow: hidden;
+    background-color: #2d303a;
+    padding: 0 30px 46px 30px;
 
+}
+
+.gallery a {
+    height: 187px;
+    width: 220px;
+    overflow: hidden;
+}
+
+.gallery img {
+    width: auto;
+    height: 187px;
+}
