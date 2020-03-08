@@ -93,6 +93,7 @@ input {
 }
 
 textarea {
+    width: 604px;
     background-color: #d6564f;
     color: #f0d8d9;
     line-height: normal;
@@ -179,7 +180,7 @@ input[type = submit]:hover {
 
 .contact-text {
     font-family: "LATO Regular", sans-serif;
-    width: 300px;
+    width: 302px;
     height: 92px;
     font-size: 12px;
     line-height: 22px;
@@ -237,7 +238,7 @@ a {
 .icons {
     display: flex;
     margin-top: 21px;
-    margin-left: 33px;
+    margin-right: 33px;
     text-align: right;
 }
 
