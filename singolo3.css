@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'LATO Black', sans-serif;
+    src: url(../assets/Lato-Black.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'LATO Light', sans-serif;
+    src: url(./assets/Lato-Light.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "LATO Regular", sans-serif;
+    src: url(./assets/Lato-Light.ttf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+.body {
+    box-sizing: border-box;
+    width: 1020px;
+    margin: 0 auto;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.section-form {
+    height: 654px;
+    box-sizing: border-box;
+    background-color: #f06c64;
+    padding-left: 40px;
+    border-bottom: 6px solid #ea676b;
+}
+
+.form-header {
+    font-family: 'LATO Black', sans-serif;
+    position: relative;
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-weight: 900;
+    text-align: left;
+    padding-top: 69px;
+    word-spacing: -0.9px;
+}
+
+.form-text {
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: 'LATO Light', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 26px;
+
+}
+
+#data {
+    width: 619px;
+    margin-top: 47px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "LATO Regular", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    display: block;
+}
+
+input, textarea {
+    width: 604px;
+    height: 38px;
+    background-color: #d6564f;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 16px;
+    padding: 0 0 0 15px;
+    vertical-align: center;
+}
+
+#textarea {
+    height: 202px;
+}
+
+input::-webkit-input-placeholder { 
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "LATO Regular", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+input::-moz-placeholder { 
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "LATO Regular", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+textarea::-webkit-input-placeholder { 
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "LATO Regular", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 7px;
+}
+
+textarea::-moz-placeholder { 
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "LATO Regular", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+input[type = submit] {
+    color: #f0d8d9;
+    border: 1px solid #f0d8d9;
+    width: 100%;
+}
