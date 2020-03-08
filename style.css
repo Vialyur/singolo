@@ -417,7 +417,7 @@ ul.navigation:not(:first-child) {
     text-align: justify;
 }
 
-.icons {
+div.icons {
     display: flex;
     margin-top: 24px;
 }
